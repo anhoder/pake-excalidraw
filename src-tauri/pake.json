@@ -2,7 +2,7 @@
   "windows": [
     {
       "url": "http://anhoder.com/media/excalidraw/",
-      "transparent": true,
+      "transparent": false,
       "fullscreen": false,
       "width": 1200,
       "height": 780,
