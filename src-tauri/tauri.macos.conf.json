@@ -1,8 +1,8 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["icons/weread.icns"],
-      "identifier": "com.pake.weread",
+      "icon": ["icons/excalidraw.icns"],
+      "identifier": "com.anhoder.excalidraw",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
@@ -10,7 +10,7 @@
       "longDescription": "",
       "macOS": {
         "entitlements": null,
-        "exceptionDomain": "",
+        "exceptionDomain": "anhoder.com",
         "frameworks": [],
         "providerShortName": null,
         "signingIdentity": null

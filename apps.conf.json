@@ -77,6 +77,12 @@
       "title": "WeRead",
       "name_zh": "微信阅读",
       "url": "https://weread.qq.com/"
+    },
+    {
+      "name": "excalidraw",
+      "title": "Excalidraw",
+      "name_zh": "Excalidraw",
+      "url": "http://anhoder.com/media/excalidraw/"
     }
   ]
 }

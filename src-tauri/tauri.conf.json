@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "Excalidraw",
     "version": "1.0.0"
   },
   "tauri": {
@@ -8,7 +8,7 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
+          "domain": "anhoder.com",
           "windows": ["pake"],
           "enableTauriAPI": true
         }
