@@ -1,23 +1,34 @@
 {
-  "tauri": {
-    "bundle": {
-      "icon": ["icons/excalidraw.icns"],
-      "identifier": "com.anhoder.excalidraw",
-      "active": true,
-      "category": "DeveloperTool",
-      "copyright": "",
-      "externalBin": [],
-      "longDescription": "",
-      "macOS": {
-        "entitlements": null,
-        "exceptionDomain": "anhoder.com",
-        "frameworks": [],
-        "providerShortName": null,
-        "signingIdentity": null
-      },
-      "resources": [],
-      "shortDescription": "",
-      "targets": ["dmg"]
+  "bundle": {
+    "icon": [
+      "icons/excalidraw.icns"
+    ],
+    "active": true,
+    "category": "DeveloperTool",
+    "targets": [
+      "dmg"
+    ],
+    "macOS": {
+      "signingIdentity": "-",
+      "hardenedRuntime": true,
+      "exceptionDomain": "anhoder.com",
+      "entitlements": "entitlements.plist",
+      "infoPlist": "Info.plist",
+      "dmg": {
+        "background": "assets/macos/dmg/background.png",
+        "windowSize": {
+          "width": 680,
+          "height": 420
+        },
+        "appPosition": {
+          "x": 190,
+          "y": 250
+        },
+        "applicationFolderPosition": {
+          "x": 500,
+          "y": 250
+        }
+      }
     }
   }
 }
