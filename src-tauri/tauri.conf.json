@@ -1,32 +1,17 @@
 {
-  "package": {
-    "productName": "Excalidraw",
-    "version": "1.0.0"
-  },
-  "tauri": {
-    "security": {
-      "csp": null,
-      "dangerousRemoteDomainIpcAccess": [
-        {
-          "domain": "anhoder.com",
-          "windows": ["pake"],
-          "enableTauriAPI": true
-        }
-      ]
-    },
-    "updater": {
-      "active": false
-    },
-    "systemTray": {
+  "productName": "Excalidraw",
+  "identifier": "com.anhoder.excalidraw",
+  "version": "1.1.0",
+  "app": {
+    "withGlobalTauri": true,
+    "trayIcon": {
       "iconPath": "png/icon_512.png",
-      "iconAsTemplate": true
+      "iconAsTemplate": true,
+      "id": "anhoder-excalidraw-tray"
     },
-    "allowlist": {
-      "all": true,
-      "fs": {
-        "all": true,
-        "scope": ["$DOWNLOAD/*"]
-      }
+    "security": {
+      "headers": {},
+      "csp": null
     }
   },
   "build": {
